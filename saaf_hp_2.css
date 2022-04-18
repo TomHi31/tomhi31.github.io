@@ -291,6 +291,13 @@ a {
   margin-bottom: 10px;
 }
 
+.copyright {
+  color: #fff;
+  border-top: 1px solid #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0;
+}
 
 
 @media screen and (max-width:960px) {
@@ -306,11 +313,12 @@ a {
   
   .header-nav {
     position: fixed;
-    top: 100px;
+    top: 60px;
     left: 0;
     width: 100%;
     transition: all .8s;
     transform: translateX(100%);
+    z-index: 2;
   }
   
   .header-nav__items {
@@ -335,7 +343,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
   }
 
   /* hamburger-btn */
@@ -496,13 +504,17 @@ a {
   margin-bottom: 5px;
 }
 
+.copyright {
+  font-size: 10px;
+}
+
 }
 
 
 @media screen and (max-width:500px) {
   
   .copy {
-    font-size: 14px;  
+    font-size: 20px;  
   }
 
   .header {
@@ -510,7 +522,7 @@ a {
   }
   
   .header-nav {
-    top: 10px;
+    top: 42px;
   }
   
   .header-nav__items {
@@ -523,7 +535,7 @@ a {
   
   
   .header-nav__items li a {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   
@@ -533,13 +545,13 @@ a {
   }
 
   .fv-copy {
-    font-size: 15px;
-    top: 20%;
+    font-size: 20px;
+    top: 10%;
     left: 5%;
   }
   
   .fv-copy span {
-    font-size: 30px;
+    font-size: 45px;
   }
 
 
@@ -549,12 +561,12 @@ a {
   }
   
   .about h3 {
-    font-size: 9px;
+    font-size: 16px;
     padding-bottom: 5px;
   }
   
   .about p {
-    font-size: 7px;
+    font-size: 12px;
   }
 
 
@@ -575,7 +587,7 @@ a {
 }
 
 .menu-items__text {
-  font-size: 7px;
+  font-size: 12px;
 }
 
 
@@ -595,7 +607,7 @@ a {
 }
 
 .shop-items__text {
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* event */
@@ -606,7 +618,7 @@ a {
 
 .event-items__text {
   text-align: center;
-  font-size: 7px;
+  font-size: 12px;
   line-height: 10px;
 }
 
@@ -617,6 +629,11 @@ a {
 
 .footer h3 {
   padding-bottom: 2px;
+}
+
+.copyright {
+  font-size: 6px;
+  padding: 5px 0;
 }
 
 }
